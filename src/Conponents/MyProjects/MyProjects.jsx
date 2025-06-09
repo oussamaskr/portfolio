@@ -8,13 +8,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Import your actual project images
-import adventureImage from "../../assets/poject images/club adventure.png"
-import ecommerceImage from "../../assets/poject images/E-commerce.png"
-import dashboardImage from "../../assets/poject images/Admin-Dashboard.png"
-import RealEstate from "../../assets/poject images/real-estate.png"
-import clinic from "../../assets/poject images/clinic-LandingPage.png"
-import recipe from "../../assets/poject images/Capture d’écran 2025-05-29 102157.png"
-import perfumeStore from "../../assets/poject images/perfume store.png"
+import adventureImage from "../../assets/poject images/club adventure.jpg"
+import ecommerceImage from "../../assets/poject images/E-commerce.jpg"
+import dashboardImage from "../../assets/poject images/Admin-Dashboard.webp"
+import RealEstate from "../../assets/poject images/real-estate.jpg"
+import clinic from "../../assets/poject images/clinic-LandingPage.webp"
+import recipe from "../../assets/poject images/Capture d’écran 2025-05-29 102157.jpg"
+import perfumeStore from "../../assets/poject images/perfume store.jpg"
 import "../MyProjects/myprojects.css";
 
 const MyProjects = () => {
