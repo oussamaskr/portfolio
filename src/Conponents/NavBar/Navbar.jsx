@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import logo from "../../assets/logo/logoo.png";
+import logo from "../../assets/logo/logoo.png"
 import "../NavBar/navbar.css";
 
 const Navbar = () => {
