@@ -15,14 +15,26 @@ import RealEstate from "../../assets/poject images/real-estate.jpg"
 import clinic from "../../assets/poject images/clinic-LandingPage.webp"
 import recipe from "../../assets/poject images/Capture d’écran 2025-05-29 102157.jpg"
 import perfumeStore from "../../assets/poject images/perfume store.jpg"
+import hyundaipage from "../../assets/poject images/Hyundai.webp"
 import "../MyProjects/myprojects.css";
 
 const MyProjects = () => {
 const projects = [
+
+    {
+title: "Hyundai Page",
+description: "A modern and responsive web page showcasing Hyundai vehicles, features for car enthusiasts buyers.",
+
+    tags: ["React", "Tailwind", "Framer Motion","React Router"],
+    github: "#",
+    liveDemo: "https://hyundaidz.netlify.app/",
+    image: hyundaipage,
+
+  },
   {
     title: "E-Commerce Platform",
     description: "An online fashion store with product listings, cart functionality, and responsive design.",
-    tags: ["React", "Redux", "Material UI", "Axios","React Router"],
+    tags: ["React", "React Hooks", "Material UI", "Axios","React Router"],
     github: "#",
     liveDemo: "https://fashion-hub-zhcq.vercel.app/",
     image: ecommerceImage,
@@ -40,7 +52,7 @@ const projects = [
   {
     title: "Real Estate Platform",
     description: "Modern property listing platform with advanced search and interactive UI.",
-    tags: ["React", "Material UI", "Framer Motion", "Axios","React Router"],
+    tags: ["React","React Hooks" , "Material UI", "Framer Motion", "Axios","React Router"],
     github: "#",
     liveDemo: "https://estate-beta-vert.vercel.app/",
     image: RealEstate,
