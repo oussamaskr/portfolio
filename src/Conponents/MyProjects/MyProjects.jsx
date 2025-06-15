@@ -146,11 +146,7 @@ description: "A modern and responsive web page showcasing Hyundai vehicles, feat
                     loading="lazy"
                   />
                   <div className="project-links">
-                    {project.github && (
-                      <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub repository">
-                        <FaGithub />
-                      </a>
-                    )}
+            
                     {project.liveDemo && (
                       <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" aria-label="Live demo">
                         <FaExternalLinkAlt />
