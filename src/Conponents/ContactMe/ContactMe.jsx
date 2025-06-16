@@ -112,7 +112,7 @@ const ContactMe = () => {
               <FaEnvelope className="contact-icon" />
               <div>
                 <h4>Email</h4>
-                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                <a href="mailto:your.email@example.com">sakhrioussama94@gmail.com</a>
               </div>
             </div>
             
@@ -120,7 +120,7 @@ const ContactMe = () => {
               <FaPhone className="contact-icon" />
               <div>
                 <h4>Phone</h4>
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                <a href="tel:+1234567890">0778 30 40 22</a>
               </div>
             </div>
 
@@ -129,7 +129,7 @@ const ContactMe = () => {
                 <FaLinkedin className="social-icon" />
                 <span className="social-label">LinkedIn</span>
               </a>
-              <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/oussamaskr" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="social-icon" />
                 <span className="social-label">GitHub</span>
               </a>
