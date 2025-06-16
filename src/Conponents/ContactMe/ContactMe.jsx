@@ -120,7 +120,7 @@ const ContactMe = () => {
               <FaPhone className="contact-icon" />
               <div>
                 <h4>Phone</h4>
-                <a href="tel:+1234567890">0778 30 40 22</a>
+                <a>0778 30 40 22</a>
               </div>
             </div>
 
