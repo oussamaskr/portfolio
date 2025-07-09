@@ -10,13 +10,14 @@ import {
   FaJava,
   FaPhp,
   FaDatabase,
-  FaWind,
+  
 
 } from 'react-icons/fa';
 
-import { FiSmartphone} from 'react-icons/fi';
+import { FiSmartphone, FiType} from 'react-icons/fi';
 import MyProjects from './Conponents/MyProjects/MyProjects';
 import ContactMe from './Conponents/ContactMe/ContactMe';
+import { SiTypescript } from 'react-icons/si';
 
 function App() {
 const TailwindIcon = () => (
@@ -29,10 +30,14 @@ const TailwindIcon = () => (
   const skills = [
     { name: 'HTML5', level: 95, icon: <FaHtml5 /> , percentage:"95%" },
     { name: 'CSS3', level: 90, icon: <FaCss3Alt></FaCss3Alt>,percentage:"90%" },
-    { name: 'TailWind', level: 50, icon:  <TailwindIcon />,percentage:"65%" },
+    { name: 'TailWind', level: 50, icon:  <TailwindIcon />,percentage:"70%" },
     { name: 'JavaScript', level: 85, icon: <FaJs></FaJs>,percentage:"80%" },
+    { name: 'TypeScript', level: 55, icon: <SiTypescript />,percentage:"40%" },
+
     { name: 'React', level: 80, icon: <FaReact/> ,percentage:"75%"},
-    { name: 'Java', level: 55, icon: <FaJava />,percentage:"55%" },
+    { name: 'Java', level: 55, icon: <FaJava />,percentage:"50%" },
+    { name: 'Php', level: 55, icon: <FaPhp />,percentage:"45%" },
+
     { name: 'Sql', level: 65, icon: <FaDatabase />,percentage:"65%" },
     { name: 'Responsive Design', level: 85, icon: <FiSmartphone></FiSmartphone>,percentage:"85%" }
   ];
