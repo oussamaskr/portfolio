@@ -91,7 +91,7 @@ const TailwindIcon = () => (
             
             <div className="about-buttons">
               <a href="#contact" className="btn btn-primary">Hire Me</a>
-              <a href="/files/Sakhri oussama_cv.pdf" download className="btn btn-secondary">Download CV</a>
+              <a href="/public/files/Sakhri oussama_2.pdf" download className="btn btn-secondary">Download CV</a>
             </div>
           </div>
         </div>
