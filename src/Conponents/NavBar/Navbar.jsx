@@ -27,7 +27,7 @@ const Navbar = () => {
           setActiveLink(entry.target.id);
         }
       });
-    }, { threshold: 0.75});
+    }, { threshold: 0.15});
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
